@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Amplify } from 'aws-amplify';
+import awsExports from './aws-exports';
+
+// Ensure Amplify is configured before any UI that uses Auth or Data
+Amplify.configure(awsExports);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

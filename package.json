@@ -38,4 +38,11 @@
       "last 1 safari version"
     ]
   }
+  ,
+  "jest": {
+    "moduleNameMapper": {
+      "^@aws-amplify/ui-react/styles.css$": "<rootDir>/src/__mocks__/amplify-ui-styles.js",
+      "^@aws-amplify/ui-react$": "<rootDir>/src/__mocks__/amplify-ui-react.js"
+    }
+  }
 }

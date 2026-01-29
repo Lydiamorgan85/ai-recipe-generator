@@ -1,10 +1,4 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
-import './index.css'
-import { Amplify } from 'aws-amplify'
-import outputs from '../amplify_outputs.json'
-Amplify.configure(outputs)
-ReactDOM.createRoot(document.getElementById('root')!).render(
-,
-)
+// This file is intentionally minimal. The project entry uses `src/index.js` / `src/main.js`.
+// Keeping this stub avoids accidental TypeScript JSX compilation errors in editors.
+
+export {};
