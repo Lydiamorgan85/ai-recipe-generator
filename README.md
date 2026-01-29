@@ -27,6 +27,12 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
+## Development notes
+
+- Dev server: `npm start` (opens on port 3000 by default; will prompt to use another port if busy)
+- Local Amplify mock: `src/amplify/data/resource.js` provides a `generateClient()` mock for development.
+- Branch with local-mock changes: `feat/local-mock` (pushed to remote). Create a PR: https://github.com/Lydiamorgan85/ai-recipe-generator/pull/new/feat/local-mock
+
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
